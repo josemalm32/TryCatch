@@ -1,11 +1,5 @@
 
 public class LimiteString {
-	public static void main(String[] args) {
-	LimiteString instacia = new LimiteString();
-	
-	instacia.ProvocaExcepcion();
-	
-	}
 	
 	
 	public void ProvocaExcepcion() {
