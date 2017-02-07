@@ -15,7 +15,6 @@ public class LimiteString {
 		
 		try {
 			cadena = "HOLAA";
-			System.out.println("Oeee");
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
