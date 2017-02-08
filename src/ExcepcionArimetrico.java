@@ -2,7 +2,9 @@
 public class ExcepcionArimetrico {
 
 	public static void main(String[] args) {
-		ArrojaExcepcion instancia = new ArrojaExcepcion();
+		ExcepcionArimetrico instancia = new ExcepcionArimetrico();
+		
+		instancia.ArrojaExcepcion();
 	
 	}
 	
@@ -11,7 +13,8 @@ public class ExcepcionArimetrico {
 		int a =0, b = 2;
 		
 		try {
-		int c = b/a;
+		int c = 0/0;
+		System.out.println("IE");
 		} catch (Exception e) {
 
 		
